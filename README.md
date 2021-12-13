@@ -1,6 +1,6 @@
 # thermia-telegraf
 
-Here's some Telegraf configuration that pull metrics out of your Thermia heat pump and save them into a database of your choice.
+Here's some Telegraf configuration that pulls metrics from your Thermia heat pump and saves them into a database of your choice.
 
 Read up on Telegraf [here](https://docs.influxdata.com/telegraf)
 

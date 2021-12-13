@@ -41,5 +41,13 @@ The example config below gets data once per minute and saves it to an InfluxDB i
     { name = "tap_water_operating_hours", data_type="FIXED", scale=1.0, byte_order="AB", address = [50]},
     { name = "compressor_speed_percent", data_type="FIXED", scale=0.01, byte_order="AB", address = [54]},
     { name = "compressor_current_gear", data_type="FIXED", scale=0.01, byte_order="AB", address = [61]},
+    { name = "bubble_point", data_type="FIXED", scale=0.01, byte_order="AB", address = [122]},
+    { name = "dew_point", data_type="FIXED", scale=0.01, byte_order="AB", address = [124]},
+    { name = "superheat_temperature", data_type="FIXED", scale=0.01, byte_order="AB", address = [125]},
+    { name = "sub_cooling_temperature", data_type="FIXED", scale=0.01, byte_order="AB", address = [126]},
+    { name = "low_pressure_side", data_type="FIXED", scale=0.01, byte_order="AB", address = [127]},
+    { name = "high_pressure_side", data_type="FIXED", scale=0.01, byte_order="AB", address = [128]},
+    { name = "liquid_line_temperature", data_type="FIXED", scale=0.01, byte_order="AB", address = [129]},
+    { name = "suction_gas_temperature", data_type="FIXED", scale=0.01, byte_order="AB", address = [130]},
   ]
 ```
